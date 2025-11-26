@@ -3,8 +3,6 @@
 A small C utility that computes how to pack circular planting spaces (e.g., for cabbages, tomatoes, etc.) into the minimum-width rectangle given a fixed bed height.  
 It evaluates three packing patterns — regular grid, flat-topped hex, and pointy-topped hex — for each crop (radius + count), picks the best packing width, then packs those resulting widths into larger shipping/bed rectangles of fixed width (`LARGE_RECT_WIDTH`). Finally it reports how many large rectangles are required and the wasted space.
 
-Drop this file into your repo as `README.md`.
-
 ---
 
 ## Summary
