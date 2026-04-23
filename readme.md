@@ -16,7 +16,7 @@ It evaluates three packing patterns — regular grid, flat-topped hex, and point
   - How many large rectangles used and total wasted space
   - A simple textual packing layout (widths per large rectangle)
 
-The program intentionally targets garden/bed layout and small-scale packing problems rather than industrial-level optimizations.
+The program intentionally targets garden/bed layout and small-scale packing problems rather than industrial-level optimisations.
 
 ---
 
@@ -109,7 +109,7 @@ Edit and recompile to change behavior:
 - Flat-topped hex vertical spacing uses `2 * r` for alternating rows (implementation approximates pattern via integer row counts).
 - Pointy hex spacing calculation uses `sqrt(3) * r` approximations for inter-row/column offsets.
 - The algorithm uses integer arithmetic for counting how many circles fit per row/column based on current trial width; widths are increased in discrete increments (usually `2*r` or `r*sqrt(3)` steps implicitly).
-- `compute_min_width` currently iterates by growing width until capacity suffices — straightforward and robust for moderate numbers but not optimized for extreme scale.
+- `compute_min_width` currently iterates by growing width until capacity suffices — straightforward and robust for moderate numbers but not optimised for extreme scale.
 - Binning into `LARGE_RECT_WIDTH` uses a greedy first-fit-decreasing approach; this is fast and often good, but not guaranteed optimal (bin-packing is NP-hard).
 
 ---
