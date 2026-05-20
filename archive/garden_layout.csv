@@ -1,0 +1,36 @@
+row,segment_label,length_in,crop
+1,broccoli#1,360.00,broccoli
+2,sweetcorn#1,360.00,sweetcorn
+3,sweetcorn#2,360.00,sweetcorn
+4,sweetcorn#3,360.00,sweetcorn
+5,dried beans#1,360.00,dried beans
+6,dried beans#2,360.00,dried beans
+7,kale#1,360.00,kale
+8,lettuce/other greens#1,360.00,lettuce/other greens
+9,potatoes#1,360.00,potatoes
+10,shelling peas#1,360.00,shelling peas
+11,shelling peas#2,360.00,shelling peas
+12,snap peas#1,360.00,snap peas
+13,tomatoes (>50% paste)#1,360.00,tomatoes (>50% paste)
+14,potatoes#2,216.00,potatoes
+14,dried beans#3,138.00,dried beans
+15,snap peas#2,215.00,snap peas
+15,shelling peas#3,138.00,shelling peas
+16,asparagus,162.00,asparagus
+16,bush green beans,135.90,bush green beans
+16,garlic,52.50,garlic
+17,cucumbers,132.00,cucumbers
+17,cabbage,120.00,cabbage
+17,kale#2,108.00,kale
+18,lettuce/other greens#2,108.00,lettuce/other greens
+18,sweet potatoes,95.14,sweet potatoes
+18,peppers,84.00,peppers
+18,sweetcorn#4,72.00,sweetcorn
+19,onion bulbs,82.94,onion bulbs
+19,carrots,73.15,carrots
+19,tomatoes (>50% paste)#2,48.00,tomatoes (>50% paste)
+19,winter squash,48.00,winter squash
+19,broccoli#2,36.00,broccoli
+19,celery,30.00,celery
+19,summer squash,24.00,summer squash
+19,green onions,10.79,green onions

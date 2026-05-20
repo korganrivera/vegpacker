@@ -1,0 +1,29 @@
+row,segment_label,length_in,crop
+1,sweetcorn#1,360,sweetcorn
+2,sweetcorn#2,360,sweetcorn
+3,dried beans#1,360,dried beans
+4,kale,360,kale
+5,lettuce/other greens,360,lettuce/other greens
+6,potatoes#1,360,potatoes
+7,shelling peas#1,360,shelling peas
+8,snap peas#1,360,snap peas
+9,tomatoes (>50% paste),324,tomatoes (>50% paste)
+9,winter squash,36,winter squash
+10,broccoli,306,broccoli
+10,garlic,52,garlic
+11,dried beans#2,306,dried beans
+11,celery,24,celery
+11,summer squash,24,summer squash
+12,shelling peas#2,306,shelling peas
+12,green onions,9,green onions
+13,sweetcorn#3,168,sweetcorn
+13,cucumbers,108,cucumbers
+13,potatoes#2,84,potatoes
+14,asparagus,126,asparagus
+14,snap peas#2,90,snap peas
+14,peppers,72,peppers
+14,sweet potatoes,72,sweet potatoes
+15,bush green beans,114,bush green beans
+15,cabbage,96,cabbage
+15,onion bulbs,80,onion bulbs
+15,carrots,69,carrots

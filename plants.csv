@@ -1,0 +1,23 @@
+plant,how_much_to_plant_per_2_people_per_year,spacing_in,planting_style
+asparagus,72,9,grid
+broccoli,43,18,grid
+bush green beans,143,6,grid
+cabbage,29,12,grid
+carrots,344,3,grid
+celery,29,6,grid
+sweetcorn,286,12,grid
+cucumbers,11,12,trellis
+dried beans,143,6,trellis
+garlic,143,4,grid
+green onions,43,3,grid
+kale,115,12,grid
+lettuce/other greens,115,12,grid
+onion bulbs,143,5,grid
+peppers,20,12,grid
+potatoes,143,12,grid
+shelling peas,286,3,trellis
+snap peas,115,5,trellis
+summer squash,6,12,grid
+sweet potatoes,23,12,grid
+tomatoes (>50% paste),34,12,trellis
+winter squash,11,12,grid
