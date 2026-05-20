@@ -1,6 +1,6 @@
 # VegPacker
 
-VegPacker turns `plants.csv` into a scaled garden-row layout and an image.
+VegPacker turns `plants.csv` into a scaled garden-row layout and an SVG image.
 
 The normal workflow is:
 
@@ -11,13 +11,13 @@ python3 draw_garden.py
 
 `scale_garden.py` finds the largest proportional version of the planting plan that fits the requested row count. `draw_garden.py` renders the resulting layout with plant circles sized from `plants.csv`.
 
-![Scaled garden layout](output/garden_scaled_rows.png)
+![Scaled garden layout](output/garden_scaled_rows.svg)
 
 ## Project Files
 
 - `plants.csv` - source crop counts, spacing, and planting style.
 - `scale_garden.py` - scales counts and packs the layout into rows.
-- `draw_garden.py` - renders a layout CSV as a PNG using `plants.csv` for spacing and planting style.
+- `draw_garden.py` - renders a layout CSV as an SVG using `plants.csv` for spacing and planting style.
 - `output/` - generated layout CSVs and images.
 - `archive/` - older experiments, previous generated files, and the retired C version.
 
@@ -86,19 +86,19 @@ Default input/output:
 
 ```text
 output/garden_scaled_layout.csv
-output/garden_scaled_rows.png
+output/garden_scaled_rows.svg
 ```
 
 Render a custom layout:
 
 ```bash
-python3 draw_garden.py output/garden_12row_layout.csv output/garden_12row_rows.png
+python3 draw_garden.py output/garden_12row_layout.csv output/garden_12row_rows.svg
 ```
 
 You can also pass a custom plant metadata CSV as the third argument:
 
 ```bash
-python3 draw_garden.py output/garden_12row_layout.csv output/garden_12row_rows.png plants.csv
+python3 draw_garden.py output/garden_12row_layout.csv output/garden_12row_rows.svg plants.csv
 ```
 
 Grid crops are drawn as filled grids of circles. Trellis crops are drawn as a single centered line of circles. Circle diameter equals `spacing_in`, and colors are assigned consistently by crop. Very small segments keep their graphics visible by moving their labels into a right-side notes column.

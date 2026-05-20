@@ -14,7 +14,7 @@ from matplotlib.patches import Circle, Rectangle
 ROW_LEN = 360
 BED_WIDTH = 36
 DEFAULT_INPUT = "output/garden_scaled_layout.csv"
-DEFAULT_OUTPUT = "output/garden_scaled_rows.png"
+DEFAULT_OUTPUT = "output/garden_scaled_rows.svg"
 DEFAULT_PLANTS = "plants.csv"
 SMALL_LABEL_THRESHOLD = 45
 NOTES_WIDTH = 130
