@@ -9,13 +9,15 @@ python3 scale_garden.py plants.csv --rows 15
 python3 draw_garden.py
 ```
 
-`scale_garden.py` finds the largest proportional version of the planting plan that fits the requested row count. `draw_garden.py` renders the resulting layout.
+`scale_garden.py` finds the largest proportional version of the planting plan that fits the requested row count. `draw_garden.py` renders the resulting layout with plant circles sized from `plants.csv`.
+
+![Scaled garden layout](output/garden_scaled_rows.png)
 
 ## Project Files
 
 - `plants.csv` - source crop counts, spacing, and planting style.
 - `scale_garden.py` - scales counts and packs the layout into rows.
-- `draw_garden.py` - renders a layout CSV as a PNG.
+- `draw_garden.py` - renders a layout CSV as a PNG using `plants.csv` for spacing and planting style.
 - `output/` - generated layout CSVs and images.
 - `archive/` - older experiments, previous generated files, and the retired C version.
 
@@ -93,4 +95,10 @@ Render a custom layout:
 python3 draw_garden.py output/garden_12row_layout.csv output/garden_12row_rows.png
 ```
 
-Colors are assigned consistently by crop, so split segments of the same crop use the same color.
+You can also pass a custom plant metadata CSV as the third argument:
+
+```bash
+python3 draw_garden.py output/garden_12row_layout.csv output/garden_12row_rows.png plants.csv
+```
+
+Grid crops are drawn as filled grids of circles. Trellis crops are drawn as a single centered line of circles. Circle diameter equals `spacing_in`, and colors are assigned consistently by crop. Very small segments keep their graphics visible by moving their labels into a right-side notes column.
